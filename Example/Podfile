@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZXiOSMath_Example' do
+  pod 'ZXiOSMath', :path => '../'
+
+  target 'ZXiOSMath_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
