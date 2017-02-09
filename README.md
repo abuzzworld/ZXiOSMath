@@ -5,11 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/ZXiOSMath.svg?style=flat)](http://cocoapods.org/pods/ZXiOSMath)
 [![Platform](https://img.shields.io/cocoapods/p/ZXiOSMath.svg?style=flat)](http://cocoapods.org/pods/ZXiOSMath)
 
+ZXiOSMath is modify from : [kostub/iosMath](https://github.com/kostub/iosMath).
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.  
+Here are screenshots of some formulae that you could render with this library:
 
 ## Requirements
+iosMath works on iOS 8+ or and requires ARC to build. It depends on the following Apple frameworks:
+
+Foundation.framework  
+CoreGraphics.framework  
+QuartzCore.framework  
+CoreText.framework  
+UIKit.framework
+
 
 ## Installation
 
@@ -22,7 +33,7 @@ pod "ZXiOSMath"
 
 ## Author
 
-zxx.abuzzworld@gmail.com, zhengxinxing@enhance.cn
+zxx.abuzzworld@gmail.com
 
 ## License
 
