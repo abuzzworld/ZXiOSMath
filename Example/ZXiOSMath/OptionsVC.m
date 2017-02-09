@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:FALSE animated:TRUE];
-    self.navigationItem.title = @"GMAT数学公式示例";
+    self.navigationItem.title = @"公式示例";
     _mathManager = [EHMathManager manager];
     _mathManager.defaultFontSize = kMathFontSize;
     _mathManager.defaultWidth = [UIScreen mainScreen].bounds.size.width - 70;
@@ -38,7 +38,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"GMAT选项终版" ofType:@"txt"];
+    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"选项例子" ofType:@"txt"];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];

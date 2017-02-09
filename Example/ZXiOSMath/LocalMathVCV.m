@@ -38,8 +38,7 @@
     _dataSource = @[].mutableCopy;
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"goto" style:UIBarButtonItemStylePlain target:self action:sel_registerName("goInputNum")];
-//    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"gmat选项内容数学公式的副本" ofType:@"txt"];
-    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"GAMT题目终版" ofType:@"txt"];
+    NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"题目例子" ofType:@"txt"];
     NSString *txt = [NSString stringWithContentsOfFile:srcPath encoding:NSUTF8StringEncoding error:nil];
     _srcOriTxt = [txt componentsSeparatedByString:@"\n"];
     _srcFinalTxt = [NSMutableArray arrayWithCapacity:1];
@@ -62,7 +61,6 @@
         EHMathSample *mathSample = [EHMathSample sampleWithDict:@{@"num": numStr,
                                                                   @"content": [_mathManager parseLatex:contentStr],
                                                                   @"size": [NSValue valueWithCGSize:_mathManager.rect]}];
-//        NSLog(@"%@", mathSample.dataNum);
         [_dataSource addObject:mathSample];
     }
 }

@@ -39,10 +39,10 @@
 		6A4EE8351E4ACCA10040B2AC /* LocalMathVCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EE8331E4ACCA10040B2AC /* LocalMathVCV.m */; };
 		6A4EE8381E4ACCD40040B2AC /* OptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EE8371E4ACCD40040B2AC /* OptionsVC.m */; };
 		6A4EE8391E4ACCD40040B2AC /* OptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EE8371E4ACCD40040B2AC /* OptionsVC.m */; };
-		6A4EE83B1E4ACD060040B2AC /* GAMT题目终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83A1E4ACD060040B2AC /* GAMT题目终版.txt */; };
-		6A4EE83C1E4ACD060040B2AC /* GAMT题目终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83A1E4ACD060040B2AC /* GAMT题目终版.txt */; };
-		6A4EE83E1E4ACD100040B2AC /* GMAT选项终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83D1E4ACD100040B2AC /* GMAT选项终版.txt */; };
-		6A4EE83F1E4ACD100040B2AC /* GMAT选项终版.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83D1E4ACD100040B2AC /* GMAT选项终版.txt */; };
+		6A4EE83B1E4ACD060040B2AC /* 题目例子.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83A1E4ACD060040B2AC /* 题目例子.txt */; };
+		6A4EE83C1E4ACD060040B2AC /* 题目例子.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83A1E4ACD060040B2AC /* 题目例子.txt */; };
+		6A4EE83E1E4ACD100040B2AC /* 选项例子.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83D1E4ACD100040B2AC /* 选项例子.txt */; };
+		6A4EE83F1E4ACD100040B2AC /* 选项例子.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EE83D1E4ACD100040B2AC /* 选项例子.txt */; };
 		6A4EE8421E4ACD1F0040B2AC /* EHMathSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EE8411E4ACD1F0040B2AC /* EHMathSample.m */; };
 		6A4EE8431E4ACD1F0040B2AC /* EHMathSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EE8411E4ACD1F0040B2AC /* EHMathSample.m */; };
 		6A4EE8451E4ACD6E0040B2AC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4EE8441E4ACD6E0040B2AC /* CoreText.framework */; };
@@ -136,8 +136,8 @@
 		6A4EE8331E4ACCA10040B2AC /* LocalMathVCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMathVCV.m; sourceTree = "<group>"; };
 		6A4EE8361E4ACCD40040B2AC /* OptionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsVC.h; sourceTree = "<group>"; };
 		6A4EE8371E4ACCD40040B2AC /* OptionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsVC.m; sourceTree = "<group>"; };
-		6A4EE83A1E4ACD060040B2AC /* GAMT题目终版.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GAMT题目终版.txt"; sourceTree = "<group>"; };
-		6A4EE83D1E4ACD100040B2AC /* GMAT选项终版.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GMAT选项终版.txt"; sourceTree = "<group>"; };
+		6A4EE83A1E4ACD060040B2AC /* 题目例子.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "题目例子.txt"; sourceTree = "<group>"; };
+		6A4EE83D1E4ACD100040B2AC /* 选项例子.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "选项例子.txt"; sourceTree = "<group>"; };
 		6A4EE8401E4ACD1F0040B2AC /* EHMathSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHMathSample.h; sourceTree = "<group>"; };
 		6A4EE8411E4ACD1F0040B2AC /* EHMathSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHMathSample.m; sourceTree = "<group>"; };
 		6A4EE8441E4ACD6E0040B2AC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -303,8 +303,8 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A4EE83D1E4ACD100040B2AC /* GMAT选项终版.txt */,
-				6A4EE83A1E4ACD060040B2AC /* GAMT题目终版.txt */,
+				6A4EE83D1E4ACD100040B2AC /* 选项例子.txt */,
+				6A4EE83A1E4ACD060040B2AC /* 题目例子.txt */,
 				6003F595195388D20070C39A /* ZXiOSMath-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -511,9 +511,9 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6A4EE8281E4ACC8E0040B2AC /* EHGoToView.xib in Resources */,
 				6A4EE8241E4ACC8E0040B2AC /* CheckOutView.xib in Resources */,
-				6A4EE83E1E4ACD100040B2AC /* GMAT选项终版.txt in Resources */,
+				6A4EE83E1E4ACD100040B2AC /* 选项例子.txt in Resources */,
 				6A4EE82C1E4ACC8E0040B2AC /* EHMathCell.xib in Resources */,
-				6A4EE83B1E4ACD060040B2AC /* GAMT题目终版.txt in Resources */,
+				6A4EE83B1E4ACD060040B2AC /* 题目例子.txt in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -527,10 +527,10 @@
 				6A4EE8311E4ACC8E0040B2AC /* EHMathCell2.xib in Resources */,
 				6A4EE8801E4ACF4F0040B2AC /* iosMathFonts.bundle in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-				6A4EE83C1E4ACD060040B2AC /* GAMT题目终版.txt in Resources */,
+				6A4EE83C1E4ACD060040B2AC /* 题目例子.txt in Resources */,
 				6A4EE82D1E4ACC8E0040B2AC /* EHMathCell.xib in Resources */,
 				6A4EE8291E4ACC8E0040B2AC /* EHGoToView.xib in Resources */,
-				6A4EE83F1E4ACD100040B2AC /* GMAT选项终版.txt in Resources */,
+				6A4EE83F1E4ACD100040B2AC /* 选项例子.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
