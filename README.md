@@ -37,4 +37,4 @@ zxx.abuzzworld@gmail.com
 
 ## License
 
-ZXiOSMath is available under the MIT license. See the LICENSE file for more info.
+ZXiOSMath is available under the MIT license. See the [LICENSE](https://github.com/abuzzworld/ZXiOSMath/blob/master/LICENSE) file for more info.
