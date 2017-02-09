@@ -1,0 +1,16 @@
+PODS:
+  - ZXiOSMath (0.1.0)
+
+DEPENDENCIES:
+  - ZXiOSMath (from `../`)
+
+EXTERNAL SOURCES:
+  ZXiOSMath:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXiOSMath: acb7d5ef31d969d36b185ef3a6f13d1aae573cfa
+
+PODFILE CHECKSUM: 6c47a6703d5622667078c2ec8f09a09456ed5514
+
+COCOAPODS: 1.2.0.beta.3
